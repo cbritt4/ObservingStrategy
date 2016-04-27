@@ -374,7 +374,7 @@ completeness-correction that would be crucial in this case.
     & {\it FoM 1.1 - Fraction of quiescent black hole binaries (qLMXB) detectable by LSST through ellipsoidal variability} \\
     \hline 
   1. & Pick a typical binary mass ratio and separation for $qLMXB$ \\
-  2. & Identify typical ellipsoidal variation amplitude and period \\
+  2. & Identify typical ellipsoidal variation amplitude, period, and flickering from the accretion disk \\
   3. & Represent as Fourier terms or ASCII lightcurve \\
   4. & Run a variant of {\tt periodicStarFit.ipynb} that allows the appropriate double-humped lightcurve shape. May be appropriate to modify {\tt mafContrib/periodicStarMetric.py}. \\
   5. & {\bf Arrive at FoM 1.1:} Load the result from 4. and sum over the spatial region (to be determined: Galactic Latitude range? Comparison high-latitude clusters?) where the qLMXBs are expected.\\
@@ -430,7 +430,7 @@ completeness-correction that would be crucial in this case.
   \label{table:pseudoFOM_1p2}
 \end{table}
 
-{\it Possible higher-order FoM:} Uncertainty in LIGO event rates due
+{\it Possible higher-order FoM:} Uncertainty in the total population of Dwarf Novae. Uncertainty in LIGO event rates due
 to uncertainties in common envelope evolution, which drives
 uncertainties in both LIGO event rates and DN population.
 
